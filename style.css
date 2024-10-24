@@ -1,0 +1,202 @@
+body {
+    font-family: Century Gothic;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c6e4ae;
+    padding: 1vh;
+    text-align: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 10%; /* Ustaw szerokość logo według potrzeb */
+    padding-top: 0.5vh;
+    padding-right: 1vw;
+    padding-bottom: 0.5vh;
+    padding-left: 1vw;
+}
+
+.titles {
+    text-align: left;
+}
+
+nav {
+    background-color: #514d4d;
+    color: #fff;
+    padding: 1vh;
+    text-align: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color:#c6e4ae
+}
+
+div a {
+    color: #514d4d; /* Zmienia kolor linku na ciemny szary */
+}
+
+div a:hover {
+    text-decoration: underline;
+    color:#c6e4ae
+}
+
+.content {
+    font-family: Century Gothic;
+    width: 70vw;
+    margin: 0 auto; /* Wyśrodkuj zawartość */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+
+.recipe {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #c6e4ae;
+    width: calc(50% - 0.6vw);
+    box-sizing: border-box;
+}
+
+.add {
+    width: 70vw;
+    margin: 0 auto; /* Wyśrodkuj zawartość */
+    padding: 1vw;
+}
+
+.message {
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message_comment {
+    padding-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin: 0 auto; /* Wyśrodkuj zawartość */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #c6e4ae;
+    padding: 20px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea{
+    width: calc(100% - 22px); /* considering the padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c6e4ae;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px; /* Set the height for the textarea */
+}
+
+form input[type="submit"] {
+    width: 15vw;
+    padding: 10px;
+    background-color: #514d4d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+form input[type="submit"]:hover {
+    color: #514d4d;
+    background-color: #c6e4ae;
+}
+
+.details {
+    font-family: Century Gothic;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe_details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #c6e4ae;
+    width: calc(50% - 0.6vw);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment strong {
+    color: #333;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.message_comment h5 {
+    margin-bottom: 10px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-buttons .button {
+    margin: 10px;
+}
